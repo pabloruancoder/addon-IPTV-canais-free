@@ -1,0 +1,19 @@
+{
+  "name": "stremio-canais-tv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "iptv-playlist-parser": "^0.14.0",
+    "node-fetch": "^2.7.0",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
